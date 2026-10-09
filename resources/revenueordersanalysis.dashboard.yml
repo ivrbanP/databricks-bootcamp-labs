@@ -1,0 +1,6 @@
+resources:
+  dashboards:
+    revenueordersanalysis:
+      display_name: "RevenueOrdersAnalysis"
+      warehouse_id: 5264306b741e2098
+      file_path: ../src/revenueordersanalysis.lvdash.json

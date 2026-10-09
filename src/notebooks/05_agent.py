@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
 # MAGIC %md
 # MAGIC # Lab 05 · Build, trace and evaluate a support agent (code-first)
 # MAGIC Databricks Free Edition does not include the Agent Bricks *Knowledge Assistant*, so we build the same pattern
@@ -152,6 +156,10 @@ results = mlflow.genai.evaluate(
 # SOLUTION-END
 print(results.metrics)
 # Experiments → bootcamp-support-agent → Evaluations: per-question scores, rationales and traces.
+
+# COMMAND ----------
+
+print(support_agent("What did order 1 contain, and can I still return it?"))
 
 # COMMAND ----------
 
