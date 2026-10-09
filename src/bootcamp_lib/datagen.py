@@ -1,3 +1,7 @@
+
+
+
+
 """Deterministic synthetic data for the bootcamp (standard library only).
 
 Every function is pure and seeded so unit tests and every participant get the
@@ -197,4 +201,4 @@ def write_jsonl(records: Iterable[dict], path: str) -> int:
         for r in records:
             fh.write(json.dumps(r) + "\n")
             count += 1
-    return count
+    return count 
