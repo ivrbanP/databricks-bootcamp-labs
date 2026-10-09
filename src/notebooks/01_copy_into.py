@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
 # MAGIC %md
 # MAGIC # Lab 01 · Idempotent batch loads with COPY INTO
 # MAGIC Compare with the Auto Loader streaming table in the pipeline: COPY INTO is a simple,
